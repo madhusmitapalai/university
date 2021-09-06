@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+/*  -----------------------------------------------------banner section-------------------------------------------*/
+.banner {
+  background: url(https://img.freepik.com/free-photo/portrait-two-happy-teenage-girls-talking_171337-37136.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100wh;
+  height: 100vh;
+  color: rgb(17, 16, 16);
+  position: relative;
+  top: 0;
+}
+.header {
+  background: rgba(184, 179, 179, 0.76);
+  padding: 3px 10px 8px;
+  background-attachment: fixed;
+}
+.hat {
+  display: inline-block;
+}
+.title-color {
+  color: #ac2540;
+}
+.search_my {
+  float: right;
+  background-attachment: fixed;
+  border: 3px #000 solid;
+}
+.search1 {
+  border: none;
+  width: 120px;
+  background-color: none;
+  background-color: transparent;
+}
+.button1 {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  height: 35px;
+  width: 35px;
+}
+/* start nav sectin*/
+.nav-header {
+  background-color: #af1261;
+}
+
+.navbar-nav li {
+  z-index: 1;
+}
+.navbar-nav li a {
+  font-size: 17px;
+  color: rgb(29, 27, 27) !important;
+  text-align: center;
+  padding: 10px 40px !important;
+}
+.navbar-nav li a:hover {
+  border-right: 4px solid #ff4f81;
+  border-left: 4px solid #ff4f81;
+  text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+@media (max-width: 993px) {
+  .navbar-light {
+    background-color: aliceblue;
+    color: white;
+  }
+  .navbar-nav li a {
+    background-color: #fff;
+  }
+  .navbar-nav li a:hover {
+    background-color: rgb(214, 80, 163);
+  }
+}
+/* end nav sectin*/
+/* start slider sectin*/
+.slider {
+  width: 40%;
+  font-weight: 700;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+.slider p {
+  padding: 0px 10px 0px 10px;
+}
+.learn {
+  background: #ff4f81;
+  padding: 10px 22px;
+  color: white;
+  font-size: 15px;
+  border-radius: 40px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border: 2px solid #ff4f81;
+}
+.learn:hover {
+  color: #000;
+  background-color: #fff;
+}
+.one h3 {
+  font-size: 3em;
+  text-align: center;
+  justify-content: center;
+  color: rgb(216, 49, 133);
+  font-family: "Alfa Slab One", cursive;
+}
+
+/* end  slider sectin*/
+/* start about sectin*/
+.about h1 {
+  letter-spacing: 10px;
+  margin-bottom: 15px;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}
+.about h3 {
+  color: #ff4f81;
+  text-align: center;
+  font-size: 40px;
+}
+.about p {
+  padding: 10px 7px 0px;
+}
+.about-grid1 {
+  background-color: #146eb4;
+  padding: 30px;
+  transition: 0.5s all;
+}
+.about .row h1 {
+  color: #ff4f81;
+  margin-top: 1em;
+  font-weight: 700;
+}
+.about .row i {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 50px;
+}
+.about .row i:hover {
+  color: #000;
+}
+.about .row p {
+  padding: 0;
+  color: #fff;
+}
+.about .row {
+  text-align: center;
+  text-transform: capitalize;
+}
+.about-grid2 {
+  background-color: #2dde98;
+  padding: 30px;
+  width: 70px;
+  transition: 0.5s all;
+}
+.about-grid1:hover {
+  box-shadow: 2px 15px 70px 2px rgba(0, 0, 0, 0.76);
+}
+.about-grid2:hover {
+  box-shadow: 2px 15px 70px 2px rgba(0, 0, 0, 0.76);
+}
+.about-grid3:hover {
+  box-shadow: 2px 15px 70px 2px rgba(0, 0, 0, 0.76);
+}
+.about-grid3 {
+  background-color: #8e43e7;
+  width: 70px;
+  padding: 30px;
+  transition: 0.5s all;
+}
+
+/* end  about sectin*/
+/*lectures*/
+.middle {
+  background-color: #000;
+}
+#lectures {
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
+#lectures h1 {
+  padding-bottom: 2em;
+  font-family: "Fredoka One", cursive;
+}
+.same-one {
+  text-align: center;
+  width: 20%;
+  height: 20%;
+}
+.same-one img {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+}
+.same-two {
+  text-align: center;
+  width: 20%;
+  height: 20%;
+}
+.same-two img {
+  height: 300px;
+  width: 300px;
+}
+.same-three {
+  width: 20%;
+  height: 20%;
+}
+.same-three img {
+  height: 300px;
+  width: 300px;
+}
+/*gallery*/
+#gallery h1 {
+  padding: 1.5em 1em 0em;
+  text-align: center;
+  letter-spacing: 6px;
+  font-family: "Fredoka One", cursive;
+}
+.photo {
+  width: 350px;
+  height: 300px;
+  border: 2px solid black;
+}
+.gallery-hr {
+  width: 25rem;
+  height: 0.2rem;
+  border-radius: 5rem;
+  margin: 0 auto 2rem;
+  background-color: #df4ca1;
+}
+@media (max-width: 550px) {
+  .search_my {
+    float: right;
+    display: inline;
+    position: fixed;
+    top: 0px;
+  }
+  .search1 {
+    width: 90px;
+  }
+  .gallery-hr {
+    width: 18rem;
+    margin: 0;
+    margin-bottom: 2em;
+    padding: 0 0 0;
+  }
+  iframe {
+    width: 320px;
+    height: 300px;
+  }
+  .about p {
+    padding: 0px 1px 0px;
+  }
+  .header {
+    padding: 0 0 0;
+    width: 100%;
+  }
+  .one h3 {
+    font-size: 30px;
+  }
+  .one p {
+    line-height: 1.1rem;
+    font-size: 15px;
+  }
+  html {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 600px) {
+  .risk {
+    max-width: 320px; /* New width for default modal */
+    margin: 0;
+    text-align: left;
+  }
+  .riskimg {
+    width: 100px;
+    height: 130px;
+  }
+}
+/*location*/
+#location h1 {
+  text-align: center;
+  letter-spacing: 6px;
+  font-family: "Fredoka One", cursive;
+}
+.address-hr {
+  width: 10rem;
+  height: 0.2rem;
+  border-radius: 5rem;
+  text-align: left;
+  background-color: #df4ca1;
+}
+/*login*/
+.fixed-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-150FnN5RvX4z_Efq-QuaQlultuksZ3rBFZELMIWcW5AV8xVfR8kM9NA9ZD7f10gyonc&usqp=CAU);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#form {
+  min-height: 300px;
+  color: rgb(19, 17, 17);
+  text-transform: capitalize;
+  padding: 5px 30px 40px 40px;
+  border-radius: 1em;
+  align-items: center;
+}
+.fixed-background h1 {
+  text-align: center;
+  justify-content: center;
+  color: #e2d5dd;
+  font-size: 4em;
+  font-family: "Fredoka One", cursive;
+}
+.text {
+  height: 31px;
+}
+label {
+  font-size: 20px;
+}
+/*contact*/
+footer {
+  background-color: #df4ca1;
+  color: rgb(22, 21, 21);
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+footer a {
+  color: rgb(36, 33, 33);
+  margin: 1.2rem 1rem 0 0;
+}
